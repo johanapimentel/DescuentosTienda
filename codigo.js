@@ -13,6 +13,10 @@ function Calcular(){
         alerta.innerHTML = "";
     } 
     else {
-        alerta.innerHTML = " El precio no puede ser igual o menor a 0 <br> El descuento no puede ser igual o menor a cero";
+        alerta.innerHTML = " * El precio no puede ser igual o menor a 0 <br> ** El descuento no puede ser igual o menor a cero";
     }
 }
+/*
+function calculos() {
+    alert("Hola!");
+}*/

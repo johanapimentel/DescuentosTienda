@@ -12,6 +12,7 @@ h1{
 }
 section{
     border: 1px solid violet;
+    border-radius: 20px;
     margin: 10px;
     padding: 10px;
 }
@@ -19,12 +20,14 @@ h2{
     text-decoration: underline;   
     text-align: center; 
 }
-#Calcular{
+#Calcular,
+button{
     background-color: violet;
     color: white;
     border: purple;
 }
-#Calcular:hover{
+#Calcular:hover,
+button:hover{
     background-color: purple;
     color: white;
     border: white;
