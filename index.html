@@ -17,13 +17,33 @@
             <input type="number" id="precioHtml">
             <label for="">Descuento %</label>
             <input type="number" id="descuentoHtml">
-            <input id="Calcular" type="button" value="Calcular">
+            <input id="calcular" type="button" value="Calcular">
             <!-- <button type="button" onclick="calculos()">Calculos</button> -->
         </form>
         <p id="alerta"></p>
         <p>
             <strong>Precio a pagar: $</strong>
             <span id="montoHtml"></span>
+        </p>
+    </section>
+    <section>
+        <h2>Descuento con cupones</h2>
+        <p>Calcular el precio a pagar aplicando sus cupones</p>
+        <form action="">
+            <label for="inputPrecio">Precio $</label>
+            <input type="number" id="priceHtml">
+            <select id="opcionesHtml" name="Cupones">
+                <option value="15">Cupon del 15% de descuento</option> 
+                <option value="20">Cupon del 20% de descuento</option> 
+                <option value="40">Cupon del 40% de descuento</option> 
+                <option value="50">Cupon del 50% de descuento</option> 
+             </select>
+             <button type="button" onclick="cupones()">Calcular</button>
+        </form>
+         <p id="alertaCupon"></p>
+         <p>
+            <strong>Precio a pagar: $</strong>
+            <span id="resultadoCuponesHtml"></span>
         </p>
     </section>
     <footer>
