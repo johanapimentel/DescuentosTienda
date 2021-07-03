@@ -1,0 +1,31 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #444;
+}
+h1{
+    color: purple;
+    text-align: center;
+}
+#alerta{
+    color: red;
+    font-size: 0.7em;
+}
+section{
+    border: 1px solid violet;
+    margin: 10px;
+    padding: 10px;
+}
+h2{
+    text-decoration: underline;   
+    text-align: center; 
+}
+#Calcular{
+    background-color: violet;
+    color: white;
+    border: purple;
+}
+#Calcular:hover{
+    background-color: purple;
+    color: white;
+    border: white;
+}
